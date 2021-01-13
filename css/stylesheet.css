@@ -130,3 +130,62 @@ main {
 .clear {
     clear: left;
 }
+
+.services {
+    background-color: #F2F2F2;
+    height: 300px;
+}
+
+.services-item {
+    display: flex;
+    margin-top: 30px;
+}
+
+.heading-services {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading-services h1 {
+    font-weight: normal;
+}
+
+.heading-services p {
+    margin: 10px 10%;
+    line-height: 25px;
+}
+
+.services-item {
+    width: 90%;
+    margin-left: 50px;
+    justify-content: center;
+}
+
+.items {
+    width: 33%;
+    display: flex;
+    padding-left: 15px;
+}
+
+.icon {
+    width: 20%;
+    float: left;
+    margin-left: 10px;
+}
+
+.item-desc {
+    width: 60%;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.item-desc h3 {
+    font-weight: ;
+}
+
+.item-desc p {
+    margin-top: 5px;
+    opacity: 0.8;
+    font-size: 15px;
+}
