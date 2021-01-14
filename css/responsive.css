@@ -164,7 +164,7 @@
 
 @media (max-width: 750px) {
     .services {
-        padding: 50px 0 20px 0;
+        padding: 20px 0 20px 0;
     }
     
     .heading h1{
@@ -271,6 +271,42 @@
         margin: 0 auto;
     }
 }
+
+@media (max-width: 500px){
+    
+    .container {
+        padding: 30px 10px;
+    }
+
+    header .container {
+        padding: 10px 10px;
+    }
+
+    main > .container {
+        padding: 10px 20px 40px 20px;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+    .heading {
+        padding-top: 0px;
+    }
+
+    #email {
+        width: 70%;
+    }
+
+    .price-left {
+        padding: 40px 20px 0 20px;
+    }
+
+    .price-right {
+        margin: 0px 20px 0 20px;
+    }
+}
+
 
 @media screen and (min-width: 24.375em) {
     .legal .legal__links {
