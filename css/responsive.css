@@ -9,7 +9,11 @@
     }
 
     .header-right {
-        margin-right: 5%;
+        margin-right: 1%;
+    }
+
+    .logo {
+        margin-right: 30px;
     }
 
     .heading {
@@ -29,18 +33,265 @@
         line-height: 20px;
     }
 
-    .main-image {
-        margin: 0;
+    .subs-form {
+        padding: 20px;
+    }
+
+    #email {
         width: 50%;
-        position: relative;
-        top: 50px;
-        max-width: 800px;
+    }
+
+    #submit-btn {
+        width: 29%;
+    }
+
+    .services {
+        padding-bottom: 30px;
+    }
+
+    .services-item {
+        width: 100%;
+        margin: 25px 0 0 0;
+    }
+
+    .heading-services h1{
+        font-size: 30px;
+    }
+
+    .heading-services p{
+        font-size: 15px;
+    }
+
+    .icon {
+        width: 30%;
+    }
+
+    .items {
+        padding: 15px;
+    }
+
+    .item-desc h3{
+        font-size: 15px;
+    }
+
+    .item-desc p{
+        font-size: 12px;
+    }
+
+    /* Pricing */
+
+    .price-content {
+        flex-direction: column;
+    }
+
+    .price-right {
+        order: 2;
+        margin-top: 40px;
+        flex-direction: row;
+    }
+
+    .price-left {
+        order: 1;
+    }
+
+    .heading-marketting {
+        flex: 50%;
+        width: 80%;
+    }
+
+    .money {
+        flex: 50%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 850px) {
+    .main-wrapper {
+        flex-direction: column;
+    }
+    
+    .menu {
+        display: none;
+    }
+
+    .heading {
+        width: 100%;
+        padding: 30px 0 10px 0;
+    }
+
+    .heading h1{
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .heading p {
+        width: 100%;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .main-image {
+        width: 60%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .subscribe {
+        display: none;
+    }
+
+    .mobile-subscribe {
+        display: block;
     }
 
     .subs-form {
-        padding: 10px;
+        padding: 17px;
+    }
+
+    #email {
+        width: 73%;
+    }
+
+    #submit-btn {
+        width: 25%;
+    }
+
+    /* -------------------------- Feature ---------------------- */
+    .feature-icon {
+        width: 50%;
     }
 }
 
-@media (max-width: 670px) {
+@media (max-width: 750px) {
+    .services {
+        padding: 50px 0 20px 0;
+    }
+    
+    .heading h1{
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .heading p {
+        width: 100%;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    .heading-services h1{
+        font-size: 20px;
+    }
+
+    .heading-services p {
+        margin: 10px auto;
+    }
+
+    .services-item {
+        flex-direction: column;
+        margin: 40px 0;
+        align-items: center;
+    }
+
+    .items {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+        padding: 15px 30px;
+        max-width: 500px;
+        align-items: center;
+    }
+
+    .icon {
+        width: 25%;
+    }
+
+    .item-desc {
+        width: 100%;
+        line-height: 25px;
+    }
+
+    .item-desc h3 {
+        font-size: 20px;
+    }
+
+    .item-desc p {
+        font-size: 15px;
+    }
+
+    .ios {
+        margin-bottom: 0;
+    }
+
+    /* Pricing */
+    .price-right {
+        order: 1;
+        margin-top: 40px;
+    }
+
+    .price-left {
+        order: 2;
+    }
+
+    .price {
+        flex-direction: column;
+    }
+
+    .price-individual {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .money {
+        width: 100%;
+    }
 }
+
+@media (max-width: 640px) {
+    /* -------------------------- Feature ---------------------- */
+    .feature-icon {
+        width: 100%;
+    }
+
+    .price-right {
+        flex-direction: column;
+        margin: 20px 40px 5px 40px;
+    }
+
+    .heading-price h2{
+        font-size: 28px;
+    }
+
+    .heading-marketting {
+        width: 100%;
+    }
+
+    .money {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 24.375em) {
+    .legal .legal__links {
+      margin-left: auto;
+    }
+  }
+  
+  @media screen and (min-width: 40.375em) {
+    .footer__nav > * {
+      flex: 1;
+    }
+    
+    .nav__item--extra {
+      flex-grow: 2;
+    }
+    
+    .footer__addr {
+      flex: 1 0px;
+    }
+    
+    .footer__nav {
+      flex: 2 0px;
+    }
+  }
