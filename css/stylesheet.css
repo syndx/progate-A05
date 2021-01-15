@@ -60,6 +60,17 @@ header {
 .header-right {
     float: right;
     margin-right: 8%;
+    animation: fadeIn 6s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .get-started {
@@ -94,14 +105,15 @@ main {
 
 .heading h1 {
     font-size: 47px;
-    color: #4E719A;;
+    color: #4E719A;
+    font-family: "Poppins", sans-serif;
 }
 
 .heading p {
     width: 90%;
-    margin-top: 10px;
+    margin-top: 20px;
     line-height: 25px;
-    color: #495057;;
+    color: #495057;
 }
 
 .content {
@@ -116,7 +128,7 @@ main {
 }
 
 .subscribe {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .mobile-subscribe {
@@ -165,19 +177,7 @@ main {
     margin-top: 30px;
 }
 
-.heading-services {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.heading-services h1 {
-    font-size: 24px;
-    color: #403d39;
-    font-family: "Poppins", sans-serif;
-}
-
-.heading-services p {
+.services .container .title-section p {
     margin: 10px 24%;
     color: #626A72;
     line-height: 25px;
@@ -251,6 +251,9 @@ main {
 .title-section {
     margin-top: 20px;
     color: #403d39;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .title-section h2 {
@@ -289,6 +292,43 @@ main {
     color:royalblue;
 }
 
+/* testimonial */
+
+.testimonial-wrapper{
+    background-color: #F4F3F3;
+}
+
+.testimonial-section {
+    display: flex;
+    padding: 30px 0;
+}
+
+.testimonial-img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.testi-desc {
+    font-family: "Poppins", sans-serif;
+    margin: 30px 15px 0 30px;
+    flex: 50%;
+}
+
+.testi-desc h2{
+    font-size: 36px;
+    color: #403D39;
+}
+
+.testi-desc p{
+    margin-top: 20px;
+    line-height: 25px;
+    font-size: 15px;
+    color: #6d6875;;
+}
+
+
 /* Pricing */
 .pricing-wrapper {
     background-color: rgba(251,198,135,0.4);
@@ -313,8 +353,10 @@ main {
 }
 
 .heading-price {
-    width: 70%;
+    width: 90%;
     margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+    color: #403D39;
 }
 
 .price-individual {
