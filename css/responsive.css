@@ -246,6 +246,11 @@
         margin-bottom: 0;
     }
 
+    /* testimonial */
+    .testi-desc h2{
+        font-size: 30px;
+    }
+
     /* Pricing */
     .price-right {
         order: 1;
